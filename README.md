@@ -88,8 +88,8 @@ pkg install python ffmpeg git nano tmux -y
 
 ```bash
 cd ~
-git clone https://github.com/waylimn/ytdl-telegram-bot.git
-cd ytdl-telegram-bot
+git clone https://github.com/waylimn/Ytv_downloader_pro.git
+cd Ytv_downloader_pro
 ```
 
 *(Using a ZIP instead? Run `termux-setup-storage`, then `cp ~/storage/downloads/YOUR_FILE.zip ~/ && unzip YOUR_FILE.zip`.)*
@@ -142,7 +142,7 @@ Also set Termux to **Battery → Unrestricted** in Android settings.
 **9. Update later**
 
 ```bash
-cd ~/ytdl-telegram-bot
+cd ~/Ytv_downloader_pro
 git pull
 pip install -U -r requirements.txt
 pip install -U yt-dlp
@@ -173,8 +173,8 @@ su - botuser
 **3. Download the bot and create a virtual environment**
 
 ```bash
-git clone https://github.com/waylimn/ytdl-telegram-bot.git
-cd ytdl-telegram-bot
+git clone https://github.com/waylimn/Ytv_downloader_pro.git
+cd Ytv_downloader_pro
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -223,8 +223,8 @@ Wants=network-online.target
 [Service]
 Type=simple
 User=botuser
-WorkingDirectory=/home/botuser/ytdl-telegram-bot
-ExecStart=/home/botuser/ytdl-telegram-bot/venv/bin/python bot.py
+WorkingDirectory=/home/botuser/Ytv_downloader_pro
+ExecStart=/home/botuser/Ytv_downloader_pro/venv/bin/python bot.py
 Restart=always
 RestartSec=5
 
@@ -251,7 +251,7 @@ sudo systemctl stop ytdl-bot        # stop
 ### Update on a server
 
 ```bash
-cd ~/ytdl-telegram-bot
+cd ~/Ytv_downloader_pro
 git pull
 source venv/bin/activate
 pip install -U -r requirements.txt
@@ -277,8 +277,8 @@ MAX_UPLOAD_MB=1990
 3. Open PowerShell:
 
 ```powershell
-git clone https://github.com/waylimn/ytdl-telegram-bot.git
-cd ytdl-telegram-bot
+git clone https://github.com/waylimn/Ytv_downloader_pro.git
+cd Ytv_downloader_pro
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
@@ -350,7 +350,7 @@ Yes, open source under the MIT license.
 ## 🗂 Project structure
 
 ```
-ytdl-telegram-bot/
+Ytv_downloader_pro/
 ├── bot.py              # entry point
 ├── config.py           # settings from .env
 ├── handlers/           # menus, download flow, admin, errors, access gate
@@ -374,7 +374,7 @@ This project is for personal and educational use. Only download content you own 
 
 ## 📄 License
 
-This project is under MIT license.
+This project is under the [MIT License](LICENSE).
 
 ---
 
