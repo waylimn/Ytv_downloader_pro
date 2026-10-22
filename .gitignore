@@ -1,0 +1,8 @@
+.env
+cookies.txt
+work/*
+data/*
+!work/.gitkeep
+!data/.gitkeep
+__pycache__/
+*.pyc
