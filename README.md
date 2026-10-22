@@ -374,7 +374,7 @@ This project is for personal and educational use. Only download content you own 
 
 ## 📄 License
 
-MIT License — add a `LICENSE` file to your repository.
+This project is under MIT license.
 
 ---
 
